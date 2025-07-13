@@ -1,8 +1,10 @@
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* Estilos principais da página */
 body {
     display: flex;
     min-height: 100vh;
@@ -17,11 +19,13 @@ h1 {
     color: #FFF;
     margin-bottom: 20px;
 }
+/* Grade das teclas */
 .keys {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
+/* Estilo de cada tecla */
 .key {
     width: 80px;
     height: 80px;
@@ -33,12 +37,14 @@ h1 {
     font-size: 30px;
     font-weight: bold;
 }
+/* Efeito visual enquanto a tecla está ativa */
 .key.active {
     border: 2px solid #FF0;
     color: #000;
     background-color: #FF0;
 }
 
+/* Formulário para composições */
 .composer {
     width: 260px;
     margin-top: 20px;

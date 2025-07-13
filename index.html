@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bateria</title>
+    <!-- Folha de estilos principal -->
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <h1>Bateria</h1>
 
+    <!-- Teclas virtuais exibidas na tela -->
     <div class="keys">
         <div data-key="keyq" class="key">Q</div>
         <div data-key="keyw" class="key">W</div>
@@ -23,6 +25,7 @@
         <div data-key="keyx" class="key">X</div>
         <div data-key="keyc" class="key">C</div>
     </div>
+    <!-- Campo para compor ritmos manualmente -->
     <div class="composer">
         <input type="text" id="input" placeholder="Faça uma composição..." />
         <button>Tocar</button>
@@ -30,6 +33,7 @@
 
     <footer>Criado por Gladston de Paula</footer>
 
+    <!-- Elementos de áudio utilizados pelo script -->
     <audio id="s_keyq" src="sounds/keyq.wav"></audio>
     <audio id="s_keyw" src="sounds/keyw.wav"></audio>
     <audio id="s_keye" src="sounds/keye.wav"></audio>
@@ -40,6 +44,7 @@
     <audio id="s_keyx" src="sounds/keyx.wav"></audio>
     <audio id="s_keyc" src="sounds/keyc.wav"></audio>
     
+    <!-- Lógica de funcionamento da bateria -->
     <script src="script.js"></script>
 </body>
 </html>
